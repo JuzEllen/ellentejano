@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <title>Ellen Tejano</title>
+    
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>   
+        </ul>
+        <ul>
+            <li><a href="#">E!</a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Services</a></li>
+            <li class="hideOnMobile"><a href="#">Contact Us</a></li> 
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>  
+        </ul>
+    </nav>
+    <section class="header">
+        <div class="head-img"> <img src="assets/images/104.jpg" alt="Coffee Image"></div>
+        <div class="head-text">
+            <p>Brew..</p>
+            <p>Make..</p>
+            <p>Blend..</p>
+            <p>New Ideas</p>
+        </div>
+    </section>
+    <section class="about">
+        <div class="myimg"><img src="assets/images/prof-pic.jpeg" alt=""></div>
+        <div class="abt-text">
+            <h2>Ellen <span>Tejano</span></h2>
+            <h3>Web Developer</h3>
+            <p>Hello! My name is Ellen and I'm a freelance web developer here in Japan. I'm a big fan of coffee, and I don't let a day pass by without having a cup of freshly brewed coffee. So let's discuss your project over a cup of coffee.</p>
+        </div>
+
+    </section>
+    <section class="services">
+        <div class="title">Services</div>
+        <div class="container"> 
+            <div class="webdesign">
+                <img src="assets/images/web1.jpg" alt="">
+                <h4>Web Design</h4>
+            </div>
+            <div class="frontend">
+                <img src="assets/images/visa2.jpg" alt="">
+                <h4>Frontend Developer</h4>
+            </div>
+            <div class="eco">
+                <img src="assets/images/translation.jpg" alt="">
+                <h4>E-commerce</h4>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h1 class="context">Contact Us</h1>
+        <div class="cont2">
+            <div class="form-group">
+            <form action="/submit-form" method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="  Enter your name.." required>
+                <br><br>
+                <label for="email" id="email">Email: </label>
+                <input type="text" name="email" placeholder="  mail@email.com.." required>
+                <br><br>
+                <label for="inquiry">Message: </label>
+                <textarea name="message" id="message" rows="5" cols="30" placeholder=" Your inquiry.." required></textarea>
+                <br><br>
+                <button>Submit</button>
+            </div>
+            </form>
+            <div class="form-group">
+                <div class="address">
+                    <p>住所：　千葉県八街市大木 783-30</p>
+                    <p>電話番号： (+81) 70-1253-7088</p>
+                    <p>E-mail： contact@ellentejano.com</p>
+                    <p class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.562668873904!2d140.31475101095342!3d35.663145072478855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602292ed83b1740f%3A0xf6c960c954a95fb2!2sYachimata%20Station!5e0!3m2!1sen!2sjp!4v1731751960874!5m2!1sen!2sjp" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="cont3">
+            <div class="foot">
+                <p>All rights reserved © ellentejano | 2024<span></span></p>
+            </div>
+            <div class="foot">
+                <a href="https://www.facebook.com/ellenctejano"><img src="assets/images/facebook.png" alt="facebook" class="social"></a>
+                <a href="https://www.instagram.com/juzellen/?hl=en"><img src="assets/images/instagram.png" alt="instagram" class="social"></a>
+                <a href="https://www.tiktok.com/@juzellen1"><img src="assets/images/tiktok.png" alt="tiktok" class="social"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+      <!-- OFFLINE -->
+      <!-- <script src="assets/js/CDN-Jquery.js"></script> -->
+      <!-- ONLINE -->
+      <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.min.js"></script> -->
+     <!-- CODES HERE -->
+     <script src="assets/jquery/nav.js"></script>
+</body>
+</html>
