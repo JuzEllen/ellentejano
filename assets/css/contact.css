@@ -2,14 +2,18 @@
     width: 100%;
     height: 650px;
     background-color: #f4ece6;
-    /* border: 3px solid blue; */
+    /* border: 3px solid #f4ece6; */
 }
 .context{
-    width: 200px;
-    height: 40px;
+    width: 100%;
+    height:100px;
     margin: auto;
-    margin-top: 30px;
+    padding-top: 30px;
     text-align: center;
+    background-color: #f4ece6;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
     /* border: 3px solid yellow; */
 }
 .cont2{
